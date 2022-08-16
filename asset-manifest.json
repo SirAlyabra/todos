@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SirAlyabra/todos/static/css/main.e36a87a2.css",
-    "main.js": "/SirAlyabra/todos/static/js/main.68eb3531.js",
-    "static/js/787.1f68a49b.chunk.js": "/SirAlyabra/todos/static/js/787.1f68a49b.chunk.js",
-    "index.html": "/SirAlyabra/todos/index.html",
-    "main.e36a87a2.css.map": "/SirAlyabra/todos/static/css/main.e36a87a2.css.map",
-    "main.68eb3531.js.map": "/SirAlyabra/todos/static/js/main.68eb3531.js.map",
-    "787.1f68a49b.chunk.js.map": "/SirAlyabra/todos/static/js/787.1f68a49b.chunk.js.map"
+    "main.css": "/todos/static/css/main.e36a87a2.css",
+    "main.js": "/todos/static/js/main.0239e091.js",
+    "static/js/787.1f68a49b.chunk.js": "/todos/static/js/787.1f68a49b.chunk.js",
+    "index.html": "/todos/index.html",
+    "main.e36a87a2.css.map": "/todos/static/css/main.e36a87a2.css.map",
+    "main.0239e091.js.map": "/todos/static/js/main.0239e091.js.map",
+    "787.1f68a49b.chunk.js.map": "/todos/static/js/787.1f68a49b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e36a87a2.css",
-    "static/js/main.68eb3531.js"
+    "static/js/main.0239e091.js"
   ]
 }

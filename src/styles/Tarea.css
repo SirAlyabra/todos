@@ -1,0 +1,19 @@
+.tarea-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    min-height: 40px;
+    margin: 10px 0 ;
+    padding: 0 5px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.completed {
+    color: var(--blue--react);
+    text-decoration: line-through;
+}
+.icon-close {
+    color: var(--blue--react);
+    font-size: 30px;
+}

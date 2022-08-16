@@ -1,0 +1,17 @@
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 700px;
+    border: solid 5px var(--blue--react);
+    border-radius: 10px;
+}
+.TareasList-container {
+    /* background-color: var(--my-color--wine); */
+    width: 90%;
+    min-height: 400px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,14 @@
+.NewTodoButton {
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+    background-color: var(--my-color--dark);
+    border-radius: 50%;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    color: var(--blue--react);
+    font-weight: bold;
+    border: solid 10px var(--blue--react);
+    z-index: 1;
+}

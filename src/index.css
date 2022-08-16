@@ -1,5 +1,7 @@
 :root {
   --my-color--dark: #1a2130;
+  --my-color--wine: #5E2129;
+  --blue--react: #3bdafb;
 }
 body {
   background-color: var(--my-color--dark);

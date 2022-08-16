@@ -1,9 +1,24 @@
 import React from "react";
-import '../styles/Searcher.css';
+import { useState } from "react";
 
-function Searcher() {
+function Searcher(props) {
+    const [input, setInput] =useState('');
+    const [matchTodos, setMatchTodos] = useState([]);
+
+    const onChangeSearcher = (event) => {
+        setInput(event.target.value);
+        updateMatchTodos(event.target.value)
+    }
+    const updateMatchTodos = (key) => {
+        const newMatchTodos = props.todos.filter(todo => todo.text.toLowerCase().includes(key.toLowerCase()));
+        setMatchTodos(newMatchTodos);
+        console.log(matchTodos);
+     }
     return (
-        <input className="input-searcher" type="text" placeholder="To-do n..." />
+        <input 
+        className="input-searcher" placeholder="To-do n..." 
+        value={input}
+        onChange={onChangeSearcher}/>
     );
 }
 
